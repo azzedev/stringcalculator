@@ -16,3 +16,6 @@ def test_stringcalculator_random():
         b = random.randint(1, 1000)
         expected = a + b
         assert stringcalculator(a,b) == expected
+
+def test_stringcalculator_3param():
+    assert stringcalculator(1,0,0) == 1
